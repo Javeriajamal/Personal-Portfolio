@@ -12,7 +12,7 @@ export function SidebarButtons ({ icon: Icon, children, ...props }: SidebarButto
 
     return (
 
-        <Button variant='contained' className="gap-2" {...props}>
+        <Button variant='ghost' className="gap-2" {...props}>
 
             {Icon && <Icon size={20}/>}
 
