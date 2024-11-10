@@ -21,7 +21,7 @@ export function SidebarMobile(props: SidebarMobileProps) {
     return(
         <Sheet>
             <SheetTrigger asChild>
-                <Button className="flex justify-self-end -mt-14 text-pink-600 " size='lg' variant='ghost'>
+                <Button className="flex justify-self-end -mt-14 text-pink-600 " size='lg' variant='default'>
 
                     <Menu className="menu-icon lg:hidden md:block sm:block md:mr-10" size={40} />
 
@@ -33,7 +33,7 @@ export function SidebarMobile(props: SidebarMobileProps) {
 
                     <SheetClose asChild>
 
-                    <Button className="h-7 w-7 p-0 text-pink-600" variant='ghost'>
+                    <Button className="h-7 w-7 p-0 text-pink-600" variant='default'>
                         <X size={20}/>
                     </Button>
 
@@ -48,7 +48,7 @@ export function SidebarMobile(props: SidebarMobileProps) {
 
                             <SidebarButtons 
 
-                            variant={pathname === link.href ? 'Secondary' : 'ghost'}
+                            variant={pathname === link.href ? "Secondary" : 'contained'}
                             
                             icon={link.icon}>{link.label}</SidebarButtons>
                         
