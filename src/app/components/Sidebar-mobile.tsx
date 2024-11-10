@@ -48,7 +48,7 @@ export function SidebarMobile(props: SidebarMobileProps) {
 
                             <SidebarButtons 
 
-                            variant={pathname === link.href ? 'Secondary' : 'Ghost'}
+                            variant={pathname === link.href ? 'Secondary' : 'ghost'}
                             
                             icon={link.icon}>{link.label}</SidebarButtons>
                         

@@ -4,6 +4,7 @@ import { App } from "./components/App";
 import Link from "next/link";
 import { Github, Linkedin, Mail, } from "lucide-react";
 import { Projects } from "./components/Projects";
+import Image from "next/image";
 
 
 
@@ -27,13 +28,13 @@ export default function Home() {
         <span className="relative sm:text-base">Hire Me</span>
         </Link>
 
-      <img src="/images/hero-image.png" alt="profile image" className="h-72 w-72 shadow-2xl drop-shadow-2xl shadow-pink-500 flex justify-self-end mr-96 rounded-full -mt-80 sm:hidden md:hidden lg:block lg:-mt-96 lg:mr-28 lg:h-64 lg:w-64 xl:mr-96 xl:h-72 xl:w-72 "/>
+      <Image src="/images/hero-image.png" alt="profile image" className="h-72 w-72 shadow-2xl drop-shadow-2xl shadow-pink-500 flex justify-self-end mr-96 rounded-full -mt-80 sm:hidden md:hidden lg:block lg:-mt-96 lg:mr-28 lg:h-64 lg:w-64 xl:mr-96 xl:h-72 xl:w-72 "/>
 
     </section>
 
     <section className="about-sec min-h-screen bg-slate-700 mt-80 flex justify-center flex-wrap text-center sm:mt-20 md:mt-20 sm:grid sm:h-auto overflow-hidden lg:pb-28" id="about">
       <h1 className="text-white font-semibold text-6xl h-5 pt-20 sm:text-4xl md:text-5xl sm:pt-8 md:mt-6 sm:mr-8 md:mr-14 lg:text-5xl lg:pt-12 xl:text-6xl xl:ml-10">About <span className="text-pink-500">Me</span></h1>
-      <img src="/images/profile-image.jpg" alt="" className="h-56 w-56 rounded-full mt-48 -ml-64 sm:h-32 sm:w-32 sm:mt-16 sm:ml-60 md:ml-72 md:mt-20 md:h-36 md:w-36 lg:h-48 lg:w-48 lg:ml-96 lg:mt-28 xl:ml-auto xl:mr-auto"/>
+      <Image src="/images/profile-image.jpg" alt="" className="h-56 w-56 rounded-full mt-48 -ml-64 sm:h-32 sm:w-32 sm:mt-16 sm:ml-60 md:ml-72 md:mt-20 md:h-36 md:w-36 lg:h-48 lg:w-48 lg:ml-96 lg:mt-28 xl:ml-auto xl:mr-auto"/>
 
       <h2 className="text-pink-500 text-2xl font-semibold mt-auto -mb-5 -ml-64 h-5 sm:text-lg sm:-mr-60 sm:mt-3 md:-mr-52 lg:text-xl">Future Full-Stack Developer</h2>
 
