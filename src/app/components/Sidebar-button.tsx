@@ -13,7 +13,7 @@ export function SidebarButtons ({ icon: Icon, children, ...props }: SidebarButto
 
     return (
 
-        <Button variant="ghost" className={cn ("gap-2")} {...props}>
+        <Button variant="text" className={cn ("gap-2")} {...props}>
 
             {Icon && <Icon size={30}/>}
 
