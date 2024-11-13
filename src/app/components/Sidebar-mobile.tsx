@@ -32,7 +32,7 @@ export function SidebarMobile(props: SidebarMobileProps) {
 
                     <SheetClose asChild>
 
-                    <Button className="h-7 w-7 p-0 text-pink-600 bg-white" variant=
+                    <Button className="h-7 w-7 p-0 " variant=
                 'outline'>
                         <X size={80}/>
                     </Button>
@@ -48,7 +48,7 @@ export function SidebarMobile(props: SidebarMobileProps) {
 
                             <SidebarButtons 
 
-                            variant={pathname === link.href ? 'Secondary' : 'links'}
+                            variant={pathname === link.href ? 'text' : 'text'}
                             
                             icon={link.icon}>{link.label}</SidebarButtons>
                         
