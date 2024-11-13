@@ -21,21 +21,20 @@ export function SidebarMobile(props: SidebarMobileProps) {
     return(
         <Sheet>
             <SheetTrigger asChild>
-                <Button className="flex justify-self-end -mt-14 text-pink-600 " size='lg' variant='ghost'>
-
-                    <Menu className="menu-icon lg:hidden md:block sm:block md:mr-10" size={40} />
+                <Button className=" flex justify-end  lg:hidden xl:hidden md:visible sm:visible text-pink-500 fixed z-20 sm:mt-5 md:mt-5 sm:ml-96 md:ml-96" size='lg' variant='link'>
+                    <Menu className="menu-icon sm:ml-44 md:ml-72 none lg:hidden xl:hidden md:block sm:block" size={100} />
 
                 </Button>
             </SheetTrigger>
 
             <SheetContent hideClose>
-                <SheetHeader className="flex flex-row justify-between space-y-0">
+                <SheetHeader className="flex flex-row justify-between ml-4 space-y-0">
 
                     <SheetClose asChild>
 
-                    <Button className="h-7 w-7 p-0 text-pink-600" variant=
-                    'outline'>
-                        <X size={20}/>
+                    <Button className="h-7 w-7 p-0 text-pink-600 bg-white" variant=
+                'ghost'>
+                        <X size={80}/>
                     </Button>
 
                     </SheetClose>
@@ -43,13 +42,13 @@ export function SidebarMobile(props: SidebarMobileProps) {
                 </SheetHeader>
 
                 <div>
-                    <div className="flex flex-col gap-4 mt-7 w-full font-serif">
+                    <div className="flex flex-col gap-7 mt-14 w-full text-pink-500">
                     {props.sidebarItems.links.map((link,idx) => (
                         <Link key={idx} href={link.href}>
 
                             <SidebarButtons 
 
-                            variant={pathname === link.href ? "Secondary" : 'outlined'}
+                            variant={pathname === link.href ? 'Secondary' : 'ghost'}
                             
                             icon={link.icon}>{link.label}</SidebarButtons>
                         

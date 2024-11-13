@@ -1,6 +1,7 @@
 import { Button, ButtonProps } from "@mui/material";
 import {LucideIcon} from 'lucide-react'; 
 import { SheetClose } from "@/components/ui/sheet";
+import { cn } from "../lib/utils";
 
 
 interface SidebarButtonsProps extends ButtonProps {
@@ -12,9 +13,9 @@ export function SidebarButtons ({ icon: Icon, children, ...props }: SidebarButto
 
     return (
 
-        <Button variant='outlined' className="gap-2" {...props}>
+        <Button variant="ghost" className={cn ("gap-2")} {...props}>
 
-            {Icon && <Icon size={20}/>}
+            {Icon && <Icon size={30}/>}
 
             <span>{children}</span>
 
