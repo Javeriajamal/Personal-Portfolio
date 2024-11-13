@@ -136,7 +136,7 @@ export default function Home() {
 
             <input type="tel" id="phone" autoComplete="billing mobile tel" placeholder="Number" required className=" placeholder-white px-4 py-3 w-full bg-black-100 border-2 mt-7 text-white border-pink-500 rounded-md text-left"></input>
 
-            <textarea id="message" placeholder="Your message" rows= "5" required className="px-4 text- py-7 placeholder-white w-full bg-black-100 border-2 mt-7  text-white border-pink-500 rounded-md"></textarea>
+            <textarea id="message" placeholder="Your message" rows={5} required className="px-4 text- py-7 placeholder-white w-full bg-black-100 border-2 mt-7  text-white border-pink-500 rounded-md"></textarea>
 
             <Link href={'*'} className=" relative items-center justify-start inline-block px-7 py-3 mt-10 ml-36 overflow-hidden font-medium transition-all bg-pink-500 rounded-md hover:bg-white group sm:mr-32 sm:px-10 sm:py-2 sm:text-xs sm:text-center md:mr-36 lg:text-sm lg:mr-28 lg:px-12 lg:py-4 xl:px-14 xl:py-5 xl:w-52">
           
