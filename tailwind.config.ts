@@ -17,6 +17,10 @@ const config: Config = {
   				DEFAULT: '#000'
   			}
   		},
+		screens: {
+			'xs': '320px',
+		},
+
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export const App = () => {
   return (
-    <div className='pl-52 pt-10 font-mono text-lg text-slate-300 sm:text-xs sm:-ml-12 lg:text-base lg:pl-52 lg:-ml-32 xl:mr-10 xl:text-base md:-ml-6'>
+    <div className='pl-52 pt-10 font-mono text-lg text-slate-300 xs:text-xs sm:text-base sm:-ml-12 xs:-ml-44 xs:-mt-4 xs:w-auto xs:flex-nowrap lg:text-lg lg:pl-52 lg:-ml-32 xl:-ml-28 xl:mt-1 xl:text-2xl md:-ml-6 md:text-lg '>
     <TypeAnimation   
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -19,7 +19,7 @@ export const App = () => {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '1.5em', display: 'inline-block' }}
       repeat={Infinity}
     />
     </div>
