@@ -9,6 +9,7 @@ import { SidebarButtonsSheet as SidebarButtons } from "./Sidebar-button";
 import { usePathname } from "next/navigation";
 
 
+
 interface SidebarMobileProps {
 
     sidebarItems: SidebarItems;
@@ -22,7 +23,7 @@ export function SidebarMobile(props: SidebarMobileProps) {
         <Sheet>
             <SheetTrigger asChild>
                 <Button className=" flex justify-end  lg:hidden xl:hidden md:visible sm:visible text-pink-600 fixed z-20 sm:mt-5 md:mt-5 sm:ml-96 md:ml-96 xs:ml-60 xs:mt-4" size='lg' variant='link'>
-                    <Menu className="menu-icon sm:ml-44 md:ml-72 none lg:hidden xl:hidden md:block sm:block" size={100} />
+                    <Menu className="menu-icon xs:ml-24 sm:ml-44 md:ml-72 none lg:hidden xl:hidden md:block sm:block" size={100} />
 
                 </Button>
             </SheetTrigger>
