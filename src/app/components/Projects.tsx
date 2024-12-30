@@ -7,7 +7,7 @@ export const Projects = () => {
     <section id='projects' className='h-screen pt-4 sm:h-auto overflow-hidden xl:pb-10 xs:h-auto'>
       <h1 className='text-white text-6xl font-semibold flex justify-center pt-20 sm:text-5xl sm:-mt-7 md:text-6xl md:mr-7 md:mt-4 lg:text-6xl lg:mr-12 lg:mt-2 xl:text-7xl xl:mr-10 xs:mr-3 xs:text-4xl xs:-mt-10 '>My <span className='text-pink-500 ml-3'> Projects</span></h1>
     
-        <div className='boxes grid grid-cols-3 gap-20 mt-20 sm:grid sm:grid-cols-2 sm:ml-5 sm:gap-8 lg:grid-cols-3 lg:ml-4 lg:mr-4 md:grid-cols-2 md:mt-20 xl:ml-16 xl:mr-20 xl:gap-14 xs:grid-cols-1 xs:mx-16 xs:gap-10 xs:mt-14 xs:mb-20'>
+        <div className='boxes grid grid-cols-3 gap-20 mt-20 sm:grid sm:grid-cols-2 sm:ml-5 sm:gap-8 lg:grid-cols-3 lg:ml-4 lg:mr-4 md:grid-cols-2 md:mt-20 xl:ml-16 xl:mr-20 xl:gap-14 xs:grid-cols-1 xs:mx-14 xs:gap-10 xs:mt-14 xs:mb-20'>
 
           <div className="box-content w-72 h-96 px-10 pt-10 border-2 border-pink-500 bg-black-100 hover: shadow-2xl rounded-2xl hover:shadow-black-100 hover:-translate-y-1 hover:scale-105 hover:duration-300 hover:border-white sm:w-48 sm:h-80 md:w-60 lg:w-56 xl:w-72 xl:h-80 xs:w-48 xs:h-80" id="box1">
             <h1 className="text-pink-500 text-2xl font-semibold mt-2 sm:text-xl sm:mt-0 xl:text-2xl md:text-xl xs:text-lg xs:-mt-2">CLI ATM Machine</h1>
